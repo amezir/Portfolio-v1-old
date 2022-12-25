@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Gilroy;
+    src: url("/font/Gilroy-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Gilroy;
+    font-weight: bold;
+    src: url("/font/Gilroy-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Catavalo;
+    src: url("/font/Catavalo-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Catavalo;
+    font-weight: bold;
+    src: url("/font/Catavalo-Medium.otf") format("opentype");
+}
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy';
+}
+
+
+/* navigation */
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a:focus {
+    color: #466C88;
+    text-decoration-line: line-through;
+
+}
+
+/* header */
+.head {
+    height: 100vh;
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+    margin-left: 2%;
+}
+
+.head .head-heading {
+    font-family: 'Catavalo';
+    font-weight: bold;
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+}
+
+.head .head-subheading {
+    font-size: 1.25rem;
+}
+
+/* texte color */
+.blue {
+    color: #466C88;
+}
+
+/* responsive */
+
+@media (min-width: 992px) {
+    .head {
+        padding-top: calc(6rem + 104px);
+        padding-bottom: 6rem;
+    }
+
+    .head .head-heading {
+        font-size: 4rem;
+        line-height: 3.5rem;
+    }
+
+    .head .head-subheading {
+        font-size: 1.5rem;
+    }
+}
+
+.page-section {
+    height: 100vh;
+}
