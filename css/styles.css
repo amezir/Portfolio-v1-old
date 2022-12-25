@@ -28,8 +28,12 @@
     margin: 0;
     padding: 0;
     font-family: 'Gilroy';
+    cursor: none;
 }
 
+::selection {
+    background: rgba(238, 238, 238, 0.427);
+}
 
 /* navigation */
 
@@ -52,44 +56,27 @@
 
 /* header */
 .head {
+    display: flex;
+    align-items: center;
     height: 100vh;
-    padding-top: calc(6rem + 74px);
-    padding-bottom: 6rem;
     margin-left: 2%;
 }
 
 .head .head-heading {
     font-family: 'Catavalo';
     font-weight: bold;
-    font-size: 2.75rem;
-    line-height: 2.75rem;
+    font-size: 4rem;
+    line-height: 4rem;
 }
 
 .head .head-subheading {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    max-width: 70%;
 }
 
 /* texte color */
 .blue {
     color: #466C88;
-}
-
-/* responsive */
-
-@media (min-width: 992px) {
-    .head {
-        padding-top: calc(6rem + 104px);
-        padding-bottom: 6rem;
-    }
-
-    .head .head-heading {
-        font-size: 4rem;
-        line-height: 3.5rem;
-    }
-
-    .head .head-subheading {
-        font-size: 1.5rem;
-    }
 }
 
 .page-section {
@@ -99,3 +86,98 @@
 .outils-section {
     margin-top: 10%;
 }
+
+.scroll-down-btn {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.scroll-down-btn:hover {
+    color: black;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 1rem;
+    margin-left: 2rem;
+    gap: 1rem;
+}
+
+/* responsive */
+
+@media screen and (max-width: 992px) {
+    .social {
+        display: none;
+    }
+
+    .head .head-heading {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .head .head-subheading {
+        font-size: 1rem;
+        max-width: 70%;
+    }
+}
+
+/* The Loader
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 90000;
+}
+
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    margin: -75px 0 0 -75px;
+    z-index: 11;
+}
+
+#loader-wrapper .loader-section {
+    position: fixed;
+    top: 0;
+    width: 51%;
+    height: 100%;
+    background: rgb(254, 254, 254);
+    z-index: 10;
+}
+
+#loader-wrapper .loader-section.section-left {
+    left: 0;
+}
+
+#loader-wrapper .loader-section.section-right {
+    right: 0;
+}
+
+/* Loaded styles 
+.loaded #loader {
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+.loaded #loader-wrapper {
+    visibility: hidden;
+    transform: translateY(-100%);
+    transition: all 0.3s 1s ease-out;
+}
+
+*/
