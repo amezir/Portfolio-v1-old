@@ -99,7 +99,24 @@
     color: black;
 }
 
+.scroll-up-btn {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    transform: rotate(180);
+}
+
 .scroll-down-btn:hover {
+    color: black;
+}
+
+.scroll-up-btn:hover {
     color: black;
 }
 
@@ -110,7 +127,6 @@
     right: 1rem;
     margin-left: 2rem;
     gap: 1rem;
-
 }
 
 /* responsive */
