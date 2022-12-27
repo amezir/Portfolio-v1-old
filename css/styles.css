@@ -211,6 +211,7 @@
 
 .hover-color h1 {
     color: white;
+    box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.5);
 }
 
 .hover-color a {
