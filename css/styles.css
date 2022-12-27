@@ -211,11 +211,23 @@
 
 .hover-color h1 {
     color: white;
-    box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.5);
+    width: 20rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.501);
 }
 
 .hover-color a {
     text-decoration: none;
+}
+
+footer {
+    background-color: rgb(44, 43, 43);
+    color: white;
+    margin-bottom: 0;
+    height: 50px;
 }
 
 /* responsive */
