@@ -255,6 +255,71 @@ footer {
     height: 50px;
 }
 
+/*=================================
+contact
+=================================*/
+.formu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.styleform {
+    flex-direction: row;
+}
+
+.styleformcol {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form div {
+    padding: 10px;
+    justify-content: center;
+}
+
+form {
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formbtn {
+    align-items: center;
+    color: #9ebc9f;
+}
+
+input[type="submit"] {
+    background-color: #2062CD;
+    border: none;
+    color: white;
+    font-family: "Gilroy";
+    font-weight: 275;
+    font-size: 1.1rem;
+}
+
+input[type="submit"]:hover {
+    background-color: #418aff;
+}
+
+input {
+    background-color: #f0f0f0;
+    width: 315px;
+    height: 35px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 0;
+}
+
+textarea {
+    resize: none;
+    background-color: #f0f0f0;
+    border: 0;
+    height: 200px;
+}
+
 /* responsive */
 
 @media screen and (max-width: 992px) {
@@ -276,5 +341,15 @@ footer {
         flex-direction: column;
         width: 100%;
         height: 80rem;
+    }
+
+    .styleform {
+        flex-direction: column;
+    }
+
+    .styleformcol {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }

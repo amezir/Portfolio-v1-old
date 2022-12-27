@@ -199,7 +199,7 @@
                 </div>
             </div>
 
-            <div class="text-center esp">
+            <div id="projets" class="text-center esp">
                 <a class="hover-underline more-projets-btn" href="/docs/AMEZIR MESSAOUD CV.pdf">
                     Télécharger mon CV !
                 </a>
@@ -210,7 +210,7 @@
     </section>
 
     <!--projets  Section-->
-    <div id="projets" class=" esp">
+    <div class=" esp">
         <div class="container">
             <div class="row">
                 <div class="col-sm">
@@ -229,9 +229,9 @@
                     <p>N'hésitez pas à me contacter si vous avez des questions ou si vous souhaitez en savoir plus sur
                         mon travail. Je suis disponible pour discuter de mes projets et de mes aspirations
                         professionnelles.</p>
-                    <a href="" class="hover-underline more-projets-btn">Explorer tous les projets &nbsp;<svg width="24"
-                            height="24" stroke="blue" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
-                            clip-rule="evenodd">
+                    <a href="projets.html" class="hover-underline more-projets-btn">Explorer tous les projets &nbsp;<svg
+                            width="24" height="24" stroke="#2062CD" xmlns="http://www.w3.org/2000/svg"
+                            fill-rule="evenodd" clip-rule="evenodd">
                             <path
                                 d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
                         </svg></a>
@@ -297,7 +297,7 @@
                 <div class="col-sm">
                     <p class="catavalo-b">Témoignages</p>
                     <div>
-                        <h2>Ce que mes clients disent de mon travail.</h3>
+                        <h2>Ce que mes clients et collègue disent de mon travail.</h3>
                     </div>
                 </div>
                 <div class="col-sm">
@@ -323,14 +323,19 @@
                                         </svg>
                                     </div>
                                     <p>
-                                        Divided by arches into stiff sections. The bedding was hardly able to cover
-                                        it and seemed ready to slide off any momentMagazine and housed in a nice,
-                                        gilded frame. It showed a lady fitted out organization boa who sat upright
+                                        Je me suis tout de suite très bien entendu avec Amézir. Nous sommes vraiment sur
+                                        la même longueur d'onde !
+                                        Il a toujours été une source d'inspiration pour moi et pour d'autres étudiants.
+                                        Il est toujours prêt à partager ses connaissances et à aider les autres à
+                                        résoudre leurs problèmes. Amézir a fait preuve de créativité et d'ingéniosité
+                                        pour trouver des solutions aux difficultés.
+                                        Je souhaite qu'il poursuive son chemin avec succès et qu'il continue à donner le
+                                        meilleur de lui-même pour atteindre ses objectifs !
                                     </p>
                                     <div class="client_info">
                                         <div class="line"></div>
-                                        <h4 class="client_name text-uppercase">Michel deno</h4>
-                                        <span class="client_title">Secior marketing expert</span>
+                                        <h4 class="client_name text-uppercase">Anna Hassani</h4>
+                                        <span class="client_title">UI designer</span>
                                     </div>
 
                                 </div>
@@ -351,7 +356,7 @@
                                 </p>
                                 <div class="client_info">
                                     <div class="line"></div>
-                                    <h4 class="client_name text-uppercase">Michel deno</h4>
+                                    <h4 class="client_name text-uppercase">Amel Chabah</h4>
                                     <span class="client_title">Secior marketing expert</span>
                                 </div>
                             </div>
@@ -382,17 +387,35 @@
         </div>
     </div>
 
-    <div class=" esp page-section">
-        <div class="container">
-            <form action="">
-                <input id="name" type="text" placeholder="NAME">
-                <input id="email" type="text" placeholder="E-MAIL">
-                <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
-                <input id="submit" type="submit" value="GO!">
+    <div class=" esp formu">
+        <div class="container styleform">
+            <h1 class="text-center">Travaillons ensemble.</h1>
+
+            <form action="" method="post" class="styleformcol">
+                <div class="formu styleform">
+                    <div>
+                        <h3>Mail*</h3>
+                        <input type="email" name="mail" required>
+                        <h3>Nom*</h3>
+                        <input type="text" name="nom" required>
+                        <h3>Prénom*</h3>
+                        <input type="text" name="prenom" required>
+                    </div>
+                    <div>
+                        <h3>Votre Message</h3>
+                        <textarea type="text" name="message" cols="40" rows="5" maxlength="500"
+                            spellcheck="true"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <p class="formbtn">
+                        <input type="submit" name="submit" value="Envoyer">
+                    </p>
+                </div>
             </form>
         </div>
     </div>
-    <footer class="d-flex text-center align-items-center justify-content-center">
+    <footer class="d-flex text-center align-items-center justify-content-center esp">
         <p>© Amézir Messaoud 2022 tous droits réservés</p>
     </footer>
     <script src="https://unpkg.com/kursor"></script>
