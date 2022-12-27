@@ -70,7 +70,6 @@
 .navbar ul li a:focus {
     color: #466C88;
     text-decoration-line: line-through;
-
 }
 
 /* header */
@@ -162,6 +161,62 @@
     align-items: center;
 }
 
+.more-projets-btn {
+    text-decoration: none;
+}
+
+.carousel-indicators {
+    top: 100%;
+}
+
+.hover-color {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+
+.hover-color:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    z-index: 1;
+    opacity: 1;
+}
+
+.card-flex {
+    height: 25rem;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.hover-txt {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.hover-txt:hover {
+    z-index: 1;
+    opacity: 1;
+}
+
+.hover-color h1 {
+    color: white;
+}
+
+.hover-color a {
+    text-decoration: none;
+}
+
 /* responsive */
 
 @media screen and (max-width: 992px) {
@@ -177,5 +232,11 @@
     .head .head-subheading {
         font-size: 1rem;
         max-width: 70%;
+    }
+
+    .card-flex {
+        flex-direction: column;
+        width: 100%;
+        height: 80rem;
     }
 }

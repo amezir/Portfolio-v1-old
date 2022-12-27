@@ -1,10 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
-
+    // animation
     AOS.init();
+    //cursor
     new kursor({
         type: 4
     })
-
+    //loading page
     setTimeout(function () {
         let opacity = 1;
         let interval = setInterval(function () {
