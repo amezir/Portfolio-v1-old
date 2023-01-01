@@ -33,6 +33,13 @@
 </head>
 
 <body>
+    <!-- <?php
+//code pour envoyer les données du formulaire dans la base de données
+INCLUDE ("connexion.php");
+
+// header('Location:contact.php');
+
+?> -->
     <div class="loader">
         <svg id="loader" width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" stroke="#000">
             <g fill="none" fill-rule="evenodd" stroke-width="2">
@@ -129,10 +136,10 @@
             </div>
             <br>
             <div class="row">
-                <div class="col-lg-2">
+                <div class="col-lg-2" data-aos="fade-down" data-aos-duration="1000">
                     1/ HISTOIRE
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-up" data-aos-duration="1000">
                     <p class="lead">Plus qu’une histoire, un rêve d’enfant.</p>
                     <p class="lead">J'ai une forte passion pour la <b class="gilroy-b">technologie</b> et le
                         <b class="gilroy-b">design</b> . Je suis
@@ -159,10 +166,10 @@
     <section class="outils-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-2">
+                <div class="col-lg-2" data-aos="fade-down" data-aos-duration="1000">
                     2/ LES OUTILS
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-up" data-aos-duration="1000">
                     <div class="row">
                         <div class="col-sm">
                             <span><b>Conception créative</b></span>
@@ -199,7 +206,7 @@
                 </div>
             </div>
 
-            <div id="projets" class="text-center esp">
+            <div id="projets" class="text-center esp" data-aos="fade-down" data-aos-duration="1000">
                 <a class="hover-underline more-projets-btn" href="/docs/AMEZIR MESSAOUD CV.pdf">
                     Télécharger mon CV !
                 </a>
@@ -213,13 +220,13 @@
     <div class=" esp">
         <div class="container">
             <div class="row">
-                <div class="col-sm">
+                <div class="col-sm" data-aos="fade-right" data-aos-duration="1000">
                     <p class="catavalo-b">Portfolio</p>
                     <div>
                         <h2>Voir mes travaux de création</h2>
                     </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm" data-aos="fade-down" data-aos-duration="1000">
                     <p>Mon portfolio est une collection de mes travaux les plus récents et les plus pertinents. Il
                         montre ma
                         créativité, mes compétences techniques et mon expérience professionnelle.</p>
@@ -237,51 +244,64 @@
                         </svg></a>
                 </div>
             </div>
+
+
             <div class="esp projets">
                 <div class="container">
-                    <div class="card-flex d-flex ">
-                        <div class="hover-color" style="background-image: url('./img/headmoi.jpg');">
-                            <div class="hover-txt d-flex align-items-center text-center justify-content-center">
-                                <a href="">
-                                    <h1 class="catavalo-b">HeadMoi</h1>
-                                </a>
+
+                    <div class="card-container row">
+                        <div class="col-md">
+                            <div class="hover-color" style="background-image: url('./img/headmoi.jpg');">
+                                <div class="hover-txt d-flex align-items-center text-center justify-content-center">
+                                    <a href="">
+                                        <h1 class="catavalo-b">HeadMoi</h1>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                        <div class="hover-color" style="background-image: url(img/dataviz.jpg);">
-                            <div class="hover-txt d-flex align-items-center text-center justify-content-center">
-                                <a href="">
-                                    <h1 class="catavalo-b">DataViz</h1>
-                                </a>
+                        <div class="col-md">
+                            <div class="hover-color" style="background-image: url(img/dataviz.jpg);">
+                                <div class="hover-txt d-flex align-items-center text-center justify-content-center">
+                                    <a href="">
+                                        <h1 class="catavalo-b">DataViz</h1>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                        <div class="hover-color" style="background-image: url(img/amézir.jpg);">
-                            <div class="hover-txt d-flex align-items-center text-center justify-content-center">
-                                <a href="">
-                                    <h1 class="catavalo-b">Projets 1</h1>
-                                </a>
+                        <div class="col-md">
+                            <div class="hover-color" style="background-image: url(img/amézir.jpg);">
+                                <div class="hover-txt d-flex align-items-center text-center justify-content-center">
+                                    <a href="">
+                                        <h1 class="catavalo-b">Projets 1</h1>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card-flex d-flex">
-                        <div class="hover-color" style="background-image: url(img/amézir.jpg);">
-                            <div class="hover-txt d-flex align-items-center text-center justify-content-center">
-                                <a href="">
-                                    <h1 class="catavalo-b">Projets 1</h1>
-                                </a>
+                        <div class="col-md">
+                            <div class="hover-color" style="background-image: url(img/amézir.jpg);">
+                                <div class="hover-txt d-flex align-items-center text-center justify-content-center">
+                                    <a href="">
+                                        <h1 class="catavalo-b">Projets 1</h1>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                        <div class="hover-color" style="background-image: url(img/amézir.jpg);">
-                            <div class="hover-txt d-flex align-items-center text-center justify-content-center">
-                                <a href="">
-                                    <h1 class="catavalo-b">Projets 1</h1>
-                                </a>
+                        <div class="col-md">
+                            <div class="hover-color" style="background-image: url(img/amézir.jpg);">
+                                <div class="hover-txt d-flex align-items-center text-center justify-content-center">
+                                    <a href="">
+                                        <h1 class="catavalo-b">Projets 1</h1>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                        <div class="hover-color" style="background-image: url(img/amézir.jpg);">
-                            <div class="hover-txt d-flex align-items-center text-center justify-content-center">
-                                <a href="">
-                                    <h1 class="catavalo-b">Projets 1</h1>
-                                </a>
+                        <div class="col-md">
+                            <div class="hover-color" style="background-image: url(img/amézir.jpg);">
+                                <div class="hover-txt d-flex align-items-center text-center justify-content-center">
+                                    <a href="">
+                                        <h1 class="catavalo-b">Projets 1</h1>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -412,6 +432,19 @@
                         <input type="submit" name="submit" value="Envoyer">
                     </p>
                 </div>
+                <!-- <?php
+//code pour envoyer les données du formulaire dans la base de données
+// if(isset($_POST['submit'])){
+// $nom_contact=$_POST['nom'];
+// $prenom_contact=$_POST['prenom'];
+// $mail_contact=$_POST['mail'];
+// $message_contact=$_POST['message'];
+
+// $requete="INSERT INTO contact (`nom_contact`, `prenom_contact`, `mail_contact`, `message_contact`) VALUES ('$nom_contact','$prenom_contact','$mail_contact','$message_contact')";
+// $db->query($requete);
+// echo "<h2>Message envoyé</h2>";}
+
+// ?> -->
             </form>
         </div>
     </div>
