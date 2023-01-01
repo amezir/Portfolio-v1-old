@@ -147,6 +147,7 @@
     right: 1rem;
     margin-left: 2rem;
     gap: 1rem;
+    z-index: 10000;
 }
 
 .loader {
