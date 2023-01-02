@@ -40,24 +40,6 @@ INCLUDE ("connexion.php");
 // header('Location:contact.php');
 
 ?> -->
-    <div class="loader">
-        <svg id="loader" width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" stroke="#000">
-            <g fill="none" fill-rule="evenodd" stroke-width="2">
-                <circle cx="22" cy="22" r="1">
-                    <animate attributeName="r" begin="0s" dur="1.8s" values="1; 20" calcMode="spline" keyTimes="0; 1"
-                        keySplines="0.165, 0.84, 0.44, 1" repeatCount="indefinite" />
-                    <animate attributeName="stroke-opacity" begin="0s" dur="1.8s" values="1; 0" calcMode="spline"
-                        keyTimes="0; 1" keySplines="0.3, 0.61, 0.355, 1" repeatCount="indefinite" />
-                </circle>
-                <circle cx="22" cy="22" r="1">
-                    <animate attributeName="r" begin="-0.9s" dur="1.8s" values="1; 20" calcMode="spline" keyTimes="0; 1"
-                        keySplines="0.165, 0.84, 0.44, 1" repeatCount="indefinite" />
-                    <animate attributeName="stroke-opacity" begin="-0.9s" dur="1.8s" values="1; 0" calcMode="spline"
-                        keyTimes="0; 1" keySplines="0.3, 0.61, 0.355, 1" repeatCount="indefinite" />
-                </circle>
-            </g>
-        </svg>
-    </div>
     <!-- navigation Section-->
     <nav class="navbar navbar-expand-lg navbar-white bg-white p-3 fixed-top" data-aos="fade-down"
         data-aos-duration="1000">
@@ -85,7 +67,7 @@ INCLUDE ("connexion.php");
                         <a class="nav-link mx-2" href="#">Mon blog</a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link mx-2" href="#">Contact</a>
+                        <a class="nav-link mx-2" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -105,12 +87,14 @@ INCLUDE ("connexion.php");
         </div>
         <!-- social Section-->
         <div class="social position-fixed" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="2100">
-            <a href="https://www.linkedin.com/in/am%C3%A9zir-messaoud-6b2862221/" target="_blank"><img
-                    src="img/Vectorin.svg" alt=""></a>
-            <a href="https://github.com/amezir" target="_blank"><img src="img/Vectorgithub.svg" alt=""></a>
-            <a href="https://dev.to/amezir" target="_blank"><img src="img/Vectordevto.svg" alt=""></a>
-            <a href="https://codepen.io/ame75" target="_blank"><img
-                    src="img/ant-design_codepen-circle-filledcodepen.svg" alt=""></a>
+            <a href="https://www.linkedin.com/in/am%C3%A9zir-messaoud-6b2862221/" target="_blank"
+                class="social-hover"><img src="img/Vectorin.svg" alt=""></a>
+            <a href="https://github.com/amezir" target="_blank" class="social-hover"><img src="img/Vectorgithub.svg"
+                    alt=""></a>
+            <a href="https://dev.to/amezir" target="_blank" class="social-hover"><img src="img/Vectordevto.svg"
+                    alt=""></a>
+            <a href="https://codepen.io/ame75" target="_blank" class="social-hover"><img
+                    src="img/ant-design_codepen-circle-filledcodepen.svg" alt="" class="social-hover"></a>
         </div>
 
         <a href="#apropos" class="scroll-down-btn" data-aos="fade-down" data-aos-duration="1000"
@@ -411,7 +395,7 @@ INCLUDE ("connexion.php");
     </div>
 
     <!-- Formulaire section -->
-    <div class=" esp formu">
+    <div class=" esp formu" id="contact">
         <div class="container styleform">
             <h1 class="text-center">Travaillons ensemble.</h1>
 
