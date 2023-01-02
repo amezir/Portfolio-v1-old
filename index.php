@@ -382,19 +382,19 @@ INCLUDE ("connexion.php");
                         <input type="submit" name="submit" value="Envoyer">
                     </p>
                 </div>
-                <!-- <?php
-//code pour envoyer les données du formulaire dans la base de données
-// if(isset($_POST['submit'])){
-// $nom_contact=$_POST['nom'];
-// $prenom_contact=$_POST['prenom'];
-// $mail_contact=$_POST['mail'];
-// $message_contact=$_POST['message'];
+                <?php
+// code pour envoyer les données du formulaire dans la base de données
+if(isset($_POST['submit'])){
+$nom_contact=$_POST['nom'];
+$prenom_contact=$_POST['prenom'];
+$mail_contact=$_POST['mail'];
+$message_contact=$_POST['message'];
 
-// $requete="INSERT INTO contact (`nom_contact`, `prenom_contact`, `mail_contact`, `message_contact`) VALUES ('$nom_contact','$prenom_contact','$mail_contact','$message_contact')";
-// $db->query($requete);
-// echo "<h2>Message envoyé</h2>";}
+$requete="INSERT INTO contact (`nom_contact`, `prenom_contact`, `mail_contact`, `message_contact`) VALUES ('$nom_contact','$prenom_contact','$mail_contact','$message_contact')";
+$db->query($requete);
+echo "<h2>Message envoyé</h2>";}
 
-// ?> -->
+?>
             </form>
         </div>
     </div>
