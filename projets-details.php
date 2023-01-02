@@ -33,11 +33,11 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-white bg-white p-3 fixed-top" data-aos="fade-down"
+<nav class="navbar navbar-expand-lg navbar-white bg-white p-3 fixed-top" data-aos="fade-down"
         data-aos-duration="1000">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="img/logo.png" class="img-fluid" alt="Bootstrap" width="50" height="50">
+            <a class="navbar-brand" href="index.php">
+                <img src="img/logo.png" class="img-fluid" width="50" height="50">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,16 +50,16 @@
                         <a class="nav-link mx-2 active" aria-current="page" href="#">Accueil</a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link mx-2" href="#apropos">À propos</a>
+                        <a class="nav-link mx-2" href="https://amezirmessaoud.fr/myPortfolio/index.php#apropos">À propos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-2" href="#projets">Projets</a>
+                        <a class="nav-link mx-2" href="https://amezirmessaoud.fr/myPortfolio/index.php#projets">Projets</a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link mx-2" href="#">Mon blog</a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link mx-2" href="#">Contact</a>
+                        <a class="nav-link mx-2" href="https://amezirmessaoud.fr/myPortfolio/index.php#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -68,27 +68,30 @@
 
     <div class=" esp">
         <div class="container">
-            <div class="row align-items-center justify-content-center d-flex">
-                <div class="col-lg">
-                    <img src="img/communiquez.jpeg" alt="" width="" class="img-fluid">
-                </div>
-                <div class="col">
-                    <h1>TEST</h1>
-                    <a href="" class="hover-underline more-projets-btn">lien vers le projets</a>&nbsp;&nbsp;&nbsp;
-                    <a href="" class="hover-underline more-projets-btn">lien github</a>
-                    <br>&nbsp;
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid deserunt aliquam perferendis
-                        fuga quia eum asperiores sunt deleniti? Delectus ipsa officia at fuga repellat consequatur
-                        necessitatibus ratione fugiat rem debitis!Lorem Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Enim esse a ut voluptates reiciendis nemo incidunt, debitis corporis quisquam
-                        delectus sint aspernatur. Consequuntur obcaecati aliquid id placeat pariatur quasi alias. Lorem
-                        ipsum dolor sit amet consectetur adipisicing elit. Porro adipisci debitis deleniti iusto error
-                        recusandae ad, dolorem similique amet officiis! Deleniti reprehenderit ducimus iusto? Id itaque
-                        esse quasi asperiores autem.
-                    </p>
-                </div>
-            </div>
+        <?php
+        INCLUDE ("connexion.php");
+        
+$requete="SELECT * FROM projets WHERE id_projets={$_GET['id_projets']}";
+
+$stmt=$db->query($requete);
+$resultat=$stmt->fetchall(PDO::FETCH_ASSOC);
+
+foreach($resultat as $projets){
+    echo"            <div class='row align-items-center justify-content-center d-flex'>
+    <div class='col-lg'>
+        <img src='{$projets["image_projets"]}' alt='' width='' class='img-fluid'>
+    </div>
+    <div class='col'>
+        <h1>TEST</h1>
+        <a href='{$projets["lien_projets"]}' class='hover-underline more-projets-btn'>lien vers le projets</a>&nbsp;&nbsp;&nbsp;
+        <a href='{$projets["github_projets"]}' class='hover-underline more-projets-btn'>lien github</a>
+        <br>&nbsp;
+        <p>{$projets["texte_projets"]}
+        </p>
+    </div>
+</div>";
+}
+?>
         </div>
     </div>
 

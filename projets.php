@@ -33,11 +33,11 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-white bg-white p-3 fixed-top" data-aos="fade-down"
+<nav class="navbar navbar-expand-lg navbar-white bg-white p-3 fixed-top" data-aos="fade-down"
         data-aos-duration="1000">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="img/logo.png" class="img-fluid" alt="Bootstrap" width="50" height="50">
+            <a class="navbar-brand" href="index.php">
+                <img src="img/logo.png" class="img-fluid" width="50" height="50">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,16 +50,16 @@
                         <a class="nav-link mx-2 active" aria-current="page" href="#">Accueil</a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link mx-2" href="#apropos">À propos</a>
+                        <a class="nav-link mx-2" href="https://amezirmessaoud.fr/myPortfolio/index.php#apropos">À propos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-2" href="#projets">Projets</a>
+                        <a class="nav-link mx-2" href="https://amezirmessaoud.fr/myPortfolio/index.php#projets">Projets</a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link mx-2" href="#">Mon blog</a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link mx-2" href="#">Contact</a>
+                        <a class="nav-link mx-2" href="https://amezirmessaoud.fr/myPortfolio/index.php#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -100,60 +100,24 @@
 
     <div id="projets" class="container esp">
         <div class="card-container row">
-            <div class="col-md">
-                <div class="hover-color" style="background-image: url('./img/headmoi.jpg');">
-                    <div class="hover-txt d-flex align-items-center text-center justify-content-center">
-                        <a href="">
-                            <h1 class="catavalo-b">HeadMoi</h1>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="hover-color" style="background-image: url(img/dataviz.jpg);">
-                    <div class="hover-txt d-flex align-items-center text-center justify-content-center">
-                        <a href="">
-                            <h1 class="catavalo-b">DataViz</h1>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="hover-color" style="background-image: url(img/communiquez.jpeg);">
-                    <div class="hover-txt d-flex align-items-center text-center justify-content-center">
-                        <a href="">
-                            <h1 class="catavalo-b">Commu'Niquez</h1>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="hover-color" style="background-image: url(img/amézir.jpg);">
-                    <div class="hover-txt d-flex align-items-center text-center justify-content-center">
-                        <a href="">
-                            <h1 class="catavalo-b">Projets 1</h1>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="hover-color" style="background-image: url(img/amézir.jpg);">
-                    <div class="hover-txt d-flex align-items-center text-center justify-content-center">
-                        <a href="">
-                            <h1 class="catavalo-b">Projets 1</h1>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md">
-                <div class="hover-color" style="background-image: url(img/amézir.jpg);">
-                    <div class="hover-txt d-flex align-items-center text-center justify-content-center">
-                        <a href="">
-                            <h1 class="catavalo-b">Projets 1</h1>
-                        </a>
-                    </div>
-                </div>
-            </div>
+            <?php
+                    INCLUDE ("connexion.php");
+            $requete="SELECT * FROM projets";
+
+            $stmt=$db->query($requete);
+            $resultat=$stmt->fetchall(PDO::FETCH_ASSOC);
+            foreach($resultat as $projets){
+                echo"<div class='col-md' data-aos='fade-in' data-aos-duration='1000' data-aos-delay='500'>
+                        <div class='hover-color' style='background-image: url({$projets["image_projets"]});'>
+                            <div class='hover-txt d-flex align-items-center text-center justify-content-center'>
+                                <a href='projets-details.php?id_projets={$projets["id_projets"]}'>
+                                    <h1 class='catavalo-b'>{$projets["nom_projets"]}</h1>
+                                </a>
+                            </div>
+                        </div>
+                    </div>";
+            }
+?>
         </div>
     </div>
 
