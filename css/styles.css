@@ -346,13 +346,4 @@ hr {
         max-width: 70%;
     }
 
-    .styleform {
-        flex-direction: column;
-    }
-
-    .styleformcol {
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
 }
