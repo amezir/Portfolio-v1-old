@@ -56,16 +56,16 @@ INCLUDE ("connexion.php");
                         <a class="nav-link mx-2 active" aria-current="page" href="#">Accueil</a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link mx-2" href="https://amezirmessaoud.fr/myPortfolio/index.php#apropos">À propos</a>
+                        <a class="nav-link mx-2" href="https://amezirmessaoud.fr/index.php#apropos">À propos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-2" href="https://amezirmessaoud.fr/myPortfolio/index.php#projets">Projets</a>
+                        <a class="nav-link mx-2" href="https://amezirmessaoud.fr/index.php#projets">Projets</a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link mx-2" href="#">Mon blog</a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link mx-2" href="https://amezirmessaoud.fr/myPortfolio/index.php#contact">Contact</a>
+                        <a class="nav-link mx-2" href="https://amezirmessaoud.fr/index.php#contact">Contact</a>
                     </li>
                 </ul>
             </div>
