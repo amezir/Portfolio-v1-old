@@ -252,13 +252,6 @@
 
 }
 
-footer {
-    background-color: rgb(44, 43, 43);
-    color: white;
-    margin-bottom: 0;
-    height: 50px;
-}
-
 /*=================================
 contact
 =================================*/
@@ -322,10 +315,18 @@ textarea {
     background-color: #f0f0f0;
     border: 0;
     height: 200px;
+    width: 90%;
 }
 
 .social-hover:hover {
     transform: scale(1.2);
+}
+
+/* footer */
+hr {
+    width: 60px;
+    background-color: black;
+    height: 2px
 }
 
 /* responsive */
