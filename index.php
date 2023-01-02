@@ -393,6 +393,7 @@ $message_contact=$_POST['message'];
 $requete="INSERT INTO contact (`nom_contact`, `prenom_contact`, `mail_contact`, `message_contact`) VALUES ('$nom_contact','$prenom_contact','$mail_contact','$message_contact')";
 $db->query($requete);
 echo "<h2>Message envoyé</h2>";}
+header("Location: https://amezirmessaoud.fr/index.php#contact");
 
 ?>
             </form>
