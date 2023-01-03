@@ -350,57 +350,6 @@ INCLUDE ("connexion.php");
         </div>
     </div>
 
-
-    <!-- Formulaire section
-    <div class=" esp formu" id="contact">
-        <div class="container styleform">
-            <h1 class="text-center">Travaillons ensemble.</h1>
-
-            <form action="" method="POST" class="styleformcol">
-                <div class="formu styleform  row">
-                    <div class="d-flex align-items-center justify-content-center">
-                        <div class="form-floating col-lg">
-                            <input type="email" name="mail" required>
-                            <label for="floatingInput">Mail*</label>
-                        </div>
-                        <div class="form-floating col-lg">
-                            <label for="floatingInput">Nom*</label>
-                            <input type="text" name="nom" required>
-                        </div>
-                        <div class="form-floating col-lg">
-                            <label for="floatingInput">Prénom*</label>
-                            <input type="text" name="prenom" required>
-                        </div>
-                    </div>
-
-                    <div class="form-floating row">
-                        <label for="floatingInput">Votre Message</label>
-                        <textarea type="text" name="message" cols="40" rows="5" maxlength="500" spellcheck="true"></textarea>
-                    </div>
-                </div>
-                <div>
-                    <p class="formbtn">
-                        <input type="submit" name="submit" value="Envoyer">
-                    </p>
-                </div>
-                <?php
-// code pour envoyer les données du formulaire dans la base de données
-// if(isset($_POST['submit'])){
-// $nom_contact=$_POST['nom'];
-// $prenom_contact=$_POST['prenom'];
-// $mail_contact=$_POST['mail'];
-// $message_contact=$_POST['message'];
-
-// $requete="INSERT INTO contact (`nom_contact`, `prenom_contact`, `mail_contact`, `message_contact`) VALUES ('$nom_contact','$prenom_contact','$mail_contact','$message_contact')";
-// $db->query($requete);
-// echo "<p>Message envoyé</p>";}
-// header("Location: https://amezirmessaoud.fr/index.php#contact");
-
-?>
-            </form>
-        </div>
-    </div> -->
-
     <!-- Footer section -->
 
     <Footer class="text-center text-lg-start text-white esp">

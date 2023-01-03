@@ -76,7 +76,7 @@ foreach($resultat as $projets){
         <img src='{$projets["image_projets"]}' alt='' width='' class='img-fluid'>
     </div>
     <div class='col'>
-        <h1>{$projets["nom_projets"]}</h1>
+        <h1>{$projets["nom_projets"]}&nbsp; <span class='badge text-bg-dark'>{$projets["ext_categorie"]}</span></h1>
         <a href='{$projets["lien_projets"]}' class='hover-underline more-projets-btn'>lien vers le projets</a>&nbsp;&nbsp;&nbsp;
         <a href='{$projets["github_projets"]}' class='hover-underline more-projets-btn'>lien github</a>
         <br>&nbsp;
