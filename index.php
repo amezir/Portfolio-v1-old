@@ -52,18 +52,12 @@ INCLUDE ("connexion.php");
 
             <div class=" collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto text-center">
-                    <!-- <li class="nav-item">
-                        <a class="nav-link mx-2 active" aria-current="page" href="#">Accueil</a>
-                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link mx-2" href="https://amezirmessaoud.fr/index.php#apropos">À propos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-2" href="https://amezirmessaoud.fr/index.php#projets">Projets</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link mx-2" href="#">Mon blog</a>
-                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link mx-2" href="https://amezirmessaoud.fr/index.php#contact">Contact</a>
                     </li>
@@ -126,8 +120,8 @@ INCLUDE ("connexion.php");
                     <p class="lead">J'ai une forte passion pour la <b class="gilroy-b">technologie</b> et le
                         <b class="gilroy-b">design</b> . Je suis
                         spécialisé dans le
-                        développement web front/back et le design UI et ma passion est de créer des interfaces
-                        utilisateur et des sites Web élégants et professionnels.
+                        <b class="gilroy-b">développement web front/back</b> et le <b class="gilroy-b">design UI</b> et <b class="gilroy-b">ma passion est de créer des interfaces
+                        utilisateur et des sites Web élégants et professionnels</b>.
                     </p>
                     <p class="lead">Je vis en France. Je suis actuellement en BUT MMI métiers du multimédia et de
                         l'internet en 2ème année à l'université Gustave Eiffel. J'ai commencé à développer et à
@@ -357,7 +351,7 @@ INCLUDE ("connexion.php");
     </div>
 
 
-    <!-- Formulaire section -->
+    <!-- Formulaire section
     <div class=" esp formu" id="contact">
         <div class="container styleform">
             <h1 class="text-center">Travaillons ensemble.</h1>
@@ -391,21 +385,21 @@ INCLUDE ("connexion.php");
                 </div>
                 <?php
 // code pour envoyer les données du formulaire dans la base de données
-if(isset($_POST['submit'])){
-$nom_contact=$_POST['nom'];
-$prenom_contact=$_POST['prenom'];
-$mail_contact=$_POST['mail'];
-$message_contact=$_POST['message'];
+// if(isset($_POST['submit'])){
+// $nom_contact=$_POST['nom'];
+// $prenom_contact=$_POST['prenom'];
+// $mail_contact=$_POST['mail'];
+// $message_contact=$_POST['message'];
 
-$requete="INSERT INTO contact (`nom_contact`, `prenom_contact`, `mail_contact`, `message_contact`) VALUES ('$nom_contact','$prenom_contact','$mail_contact','$message_contact')";
-$db->query($requete);
-echo "<p>Message envoyé</p>";}
-header("Location: https://amezirmessaoud.fr/index.php#contact");
+// $requete="INSERT INTO contact (`nom_contact`, `prenom_contact`, `mail_contact`, `message_contact`) VALUES ('$nom_contact','$prenom_contact','$mail_contact','$message_contact')";
+// $db->query($requete);
+// echo "<p>Message envoyé</p>";}
+// header("Location: https://amezirmessaoud.fr/index.php#contact");
 
 ?>
             </form>
         </div>
-    </div>
+    </div> -->
 
     <!-- Footer section -->
 
