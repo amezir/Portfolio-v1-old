@@ -352,7 +352,7 @@ INCLUDE ("connexion.php");
 
     <!-- Footer section -->
 
-    <Footer class="text-center text-lg-start text-white esp">
+    <Footer class="text-center text-lg-start text-white esp" id="contact">
         <section>
             <div class="container text-center text-md-start mt-5">
                 <div class="row mt-3">
