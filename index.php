@@ -359,9 +359,11 @@ INCLUDE ("connexion.php");
                     <div class="col-md-1 col-lg-2 col-xl-2 mx-auto mb-4 text-center">
                         <h6 class="text-uppercase fw-bold text-black">Contact</h6>
                         <hr class="mb-4 mt-0 d-inline-block mx-auto" />
-                        <p class="text-black">
-                            amezirmessaoud.pro@gmail.com
-                        </p>
+                        
+                        <a href="mailto:amezirmessaoud.pro@gmail.com"
+                                class="hover-underline more-projets-btn">
+                            amezirmessaoud.pro@gmail.com</a>
+                        
                         <p class="text-black">
                             +33 06 73 36 56 31
                         </p>
