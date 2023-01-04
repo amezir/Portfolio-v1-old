@@ -120,11 +120,11 @@ INCLUDE ("connexion.php");
                 </div>
                 <div class="col" data-aos="fade-up" data-aos-duration="1000">
                     <p class="lead">Plus qu’une histoire, un rêve d’enfant.</p>
-                    <p class="lead">J'ai une forte passion pour la <b class="gilroy-b">technologie</b> et le
-                        <b class="gilroy-b">design</b> . Je suis
+                    <p class="lead">J'ai une forte passion pour la technologie et le
+                        design . Je suis
                         spécialisé dans le
-                        <b class="gilroy-b">développement web front/back</b> et le <b class="gilroy-b">design UI</b> et <b class="gilroy-b">ma passion est de créer des interfaces
-                        utilisateur et des sites Web élégants et professionnels</b>.
+                        développement web front/back et le design UI et ma passion est de créer des interfaces
+                        utilisateur et des sites Web élégants et professionnels.
                     </p>
                     <p class="lead">Je vis en France. Je suis actuellement en BUT MMI métiers du multimédia et de
                         l'internet en 2ème année à l'université Gustave Eiffel. J'ai commencé à développer et à

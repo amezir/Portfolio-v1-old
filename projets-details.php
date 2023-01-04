@@ -90,7 +90,7 @@ foreach($resultat as $projets){
         <p>{$projets["competences_projets"]}
         </p>
         <a href='index.php' class='hover-underline more-projets-btn'>Retour accueil</a>&nbsp;&nbsp;&nbsp;
-        <a href='projets.php' class='hover-underline more-projets-btn'>Voir plus de projets</a>
+        <a href='https://amezirmessaoud.fr/projets.php#projets' class='hover-underline more-projets-btn'>Voir plus de projets</a>
     </div>
 </div>";
 }
