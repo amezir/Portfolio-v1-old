@@ -15,9 +15,12 @@
     <meta property="og:site_name" content="Amézir Messaoud">
     <meta property="og:locale" content="fr_fr">
     <meta property="og:title" content="Amézir Messaoud – Développeur & Créative designer">
-    <meta property=”og:type” content=”siteweb” />
+    <meta property="og:type" content="siteweb" />
+    <meta property="og:image" content="https://amezirmessaoud.fr/img/logo.png">
     <meta property="og:url" content="https://amezirmessaoud.fr/">
-    <meta property="og:description" content="Amezir Messaoud est un développeur et un designer UI basé en France. ">
+    <meta property="og:description" content="Je m'appelle Amézir Messaoud, je suis un
+                développeur web et un designer UI passionné, basé en
+                France.">
 
     <meta name="author" content="Amézir Messaoud">
 
