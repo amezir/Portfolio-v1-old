@@ -260,7 +260,7 @@ INCLUDE ("connexion.php");
                 <div class="col-sm">
                     <p class="catavalo-b">Témoignages</p>
                     <div>
-                        <h2>Ce que mes clients et collègue disent de mon travail.</h3>
+                        <h2>Ce que mes clients et collègues disent de mon travail.</h3>
                     </div>
                 </div>
                 <div class="col-sm">
