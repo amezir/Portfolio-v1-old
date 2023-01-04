@@ -72,7 +72,7 @@
 
         <!-- social Section-->
         <div class="social position-fixed" data-aos="fade-in" data-aos-duration="1500">
-            <a href="https://www.linkedin.com/in/am%C3%A9zir-messaoud-6b2862221/" target="_blank"><img
+            <a href="https://www.linkedin.com/in/amezirmessaoud/" target="_blank"><img
                     src="img/Vectorin.svg" alt=""></a>
             <a href="https://github.com/amezir" target="_blank"><img src="img/Vectorgithub.svg" alt=""></a>
             <a href="https://dev.to/amezir" target="_blank"><img src="img/Vectordevto.svg" alt=""></a>

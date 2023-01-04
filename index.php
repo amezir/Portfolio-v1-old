@@ -82,7 +82,7 @@ INCLUDE ("connexion.php");
         </div>
         <!-- social Section-->
         <div class="social position-fixed" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="2100">
-            <a href="https://www.linkedin.com/in/am%C3%A9zir-messaoud-6b2862221/" target="_blank"
+            <a href="https://www.linkedin.com/in/amezirmessaoud/" target="_blank"
                 class="social-hover"><img src="img/Vectorin.svg" alt=""></a>
             <a href="https://github.com/amezir" target="_blank" class="social-hover"><img src="img/Vectorgithub.svg"
                     alt=""></a>
