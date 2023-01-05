@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="keywords"
-        content="Amézir Messaoud, France, front-end développeur, back-end développeur, full-stack développeur, graphic designer, ui designer, portfolio, designer français, développeur français">
+        content="Amézir Messaoud, France, front-end développeur, back-end développeur, full-stack développeur, graphic designer, ui designer, portfolio, designer français, développeur français, amezir messaoud, amezirmessaoud, portfolio amezir messaoud, portfolio amézir messaoud">
 
     <meta name="description"
         content="Mon portfolio est un dossier physique ou un espace numérique  contenant des exemples de mes réalisations. Il vise à démontrer mes compétences par rapport à mes objectif professionnel.">
@@ -316,14 +316,12 @@ INCLUDE ("connexion.php");
                                     </svg>
                                 </div>
                                 <p>
-                                    Divided by arches into stiff sections. The bedding was hardly able to cover
-                                    it and seemed ready to slide off any momentMagazine and housed in a nice,
-                                    gilded frame. It showed a lady fitted out organization boa who sat upright
+                                Fort d'esprit d'équipe et de proposition, Amézir est toujours en quête d'idées innovantes et de progrès. C'est sans hésitation que je continuerai de collaborer avec lui !
                                 </p>
                                 <div class="client_info">
                                     <div class="line"></div>
                                     <h4 class="client_name text-uppercase">Amel Chabah</h4>
-                                    <span class="client_title">Secior marketing expert</span>
+                                    <span class="client_title">Chef de projet web </span>
                                 </div>
                             </div>
                             <div class="carousel-item">

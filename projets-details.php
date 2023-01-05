@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="keywords"
-        content="Amézir Messaoud, France, front-end développeur, back-end développeur, full-stack développeur, graphic designer, ui designer, portfolio, designer français, développeur français">
+        content="Amézir Messaoud, France, front-end développeur, back-end développeur, full-stack développeur, graphic designer, ui designer, portfolio, designer français, développeur français, amezir messaoud, amezirmessaoud, portfolio amezir messaoud, portfolio amézir messaoud">
 
     <meta name="description"
         content="Mon portfolio est un dossier physique ou un espace numérique  contenant des exemples de mes réalisations. Il vise à démontrer mes compétences par rapport à mes objectif professionnel.">
@@ -81,7 +81,7 @@ foreach($resultat as $projets){
     <div class='col'>
         <h1>{$projets["nom_projets"]}&nbsp; <span class='badge text-bg-dark'>{$projets["nom_categorie"]}</span></h1>
         <a href='{$projets["lien_projets"]}' class='hover-underline more-projets-btn'>lien vers le projet</a>&nbsp;&nbsp;&nbsp;
-        <a href='{$projets["github_projets"]}' class='hover-underline more-projets-btn'>lien github</a>
+        <a href='{$projets["github_projets"]}' class='{$projets["display_btn_projets"]} hover-underline more-projets-btn'>lien github</a>
         <br>&nbsp;
         <p>{$projets["texte_projets"]}
         </p>
