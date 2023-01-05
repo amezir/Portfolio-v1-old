@@ -10,7 +10,7 @@
         content="Amézir Messaoud, France, front-end développeur, back-end développeur, full-stack développeur, graphic designer, ui designer, portfolio, designer français, développeur français, amezir messaoud, amezirmessaoud, portfolio amezir messaoud, portfolio amézir messaoud">
 
     <meta name="description"
-        content="Mon portfolio est un dossier physique ou un espace numérique  contenant des exemples de mes réalisations. Il vise à démontrer mes compétences par rapport à mes objectif professionnel.">
+        content="Mon portfolio est un dossier physique et un espace numérique contenant des exemples de mes réalisations. Il vise à démontrer mes compétences par rapport à mes objectif professionnel.">
 
     <meta property="og:site_name" content="Amézir Messaoud">
     <meta property="og:locale" content="fr_fr">
@@ -18,9 +18,7 @@
     <meta property="og:type" content="siteweb" />
     <meta property="og:image" content="https://amezirmessaoud.fr/img/logo.png">
     <meta property="og:url" content="https://amezirmessaoud.fr/">
-    <meta property="og:description" content="Je m'appelle Amézir Messaoud, je suis un
-                développeur web et un designer UI passionné, basé en
-                France.">
+    <meta property="og:description" content="Je m'appelle Amézir Messaoud, je suis un développeur web et un designer UI passionné, basé en France. Mon portfolio est un dossier physique et un espace numérique contenant des exemples de mes réalisations. Il vise à démontrer mes compétences par rapport à mes objectif professionnel.">
 
     <meta name="author" content="Amézir Messaoud">
 
