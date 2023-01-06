@@ -102,7 +102,7 @@
             $stmt=$db->query($requete);
             $resultat=$stmt->fetchall(PDO::FETCH_ASSOC);
             foreach($resultat as $projets){
-                echo"<div class='col-md' data-aos='fade-in' data-aos-duration='1000' data-aos-delay='500'>
+                echo"<div class='col-md' data-aos='fade-in' data-aos-duration='500'>
                         <div class='hover-color' style='background-image: url({$projets["image_projets"]});'>
                             <div class='hover-txt d-flex align-items-center text-center justify-content-center'>
                                 <a href='projets-details.php?id_projets={$projets["id_projets"]}'>
