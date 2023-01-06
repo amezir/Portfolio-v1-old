@@ -41,10 +41,10 @@ INCLUDE ("connexion.php");
 ?>
     <!-- navigation Section-->
     <nav class="navbar navbar-expand-lg navbar-white bg-white p-3 fixed-top" data-aos="fade-down"
-        data-aos-duration="1000">
+        data-aos-duration="500">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">
-                <img src="img/logo.png" class="img-fluid" width="50" height="50" alt="">
+                <img src="img/logo.png" class="img-fluid" width="50" height="50" alt="Retour a l'accueil">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,29 +69,28 @@ INCLUDE ("connexion.php");
     <!-- Header -->
     <header class="head text-black text-left">
         <div class="d-flex align-items-left flex-column">
-            <h1 class="head-heading mb-0" data-aos="fade-in" data-aos-duration="1500">Développeur &</h1>
-            <h1 class="head-heading mb-0 blue" data-aos="fade-in" data-aos-duration="600" data-aos-delay="1500">Designer
+            <h1 class="head-heading mb-0" data-aos="fade-in" data-aos-duration="500">Développeur &</h1>
+            <h1 class="head-heading mb-0 blue" data-aos="fade-in" data-aos-delay="1000">Designer
                 CréaTif.</h1>
             <br>
-            <p class="head-subheading font-weight-light mb-0" data-aos="fade-up" data-aos-duration="1000"
-                data-aos-delay="2100">Bonjour, je m'appelle Amézir Messaoud, je suis un
+            <p class="head-subheading font-weight-light mb-0" data-aos="fade-up" 
+                data-aos-delay="1500">Bonjour, je m'appelle Amézir Messaoud, je suis un
                 développeur web et un designer UI passionné, basé en
                 France.</p>
         </div>
         <!-- social Section-->
-        <div class="social position-fixed" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="2100">
+        <div class="social position-fixed" data-aos="fade-in" data-aos-duration="1000">
             <a href="https://www.linkedin.com/in/amezirmessaoud/" target="_blank"
-                class="social-hover"><img src="img/Vectorin.svg" alt=""></a>
+                class="social-hover"><img src="img/Vectorin.svg" alt="Linkedin"></a>
             <a href="https://github.com/amezir" target="_blank" class="social-hover"><img src="img/Vectorgithub.svg"
-                    alt=""></a>
+                    alt="Github"></a>
             <a href="https://dev.to/amezir" target="_blank" class="social-hover"><img src="img/Vectordevto.svg"
-                    alt=""></a>
+                    alt="Dev.to"></a>
             <a href="https://codepen.io/ame75" target="_blank" class="social-hover"><img
-                    src="img/ant-design_codepen-circle-filledcodepen.svg" alt="" class="social-hover"></a>
+                    src="img/ant-design_codepen-circle-filledcodepen.svg" alt="CodePen" class="social-hover"></a>
         </div>
 
-        <a href="#apropos" class="scroll-down-btn" data-aos="fade-down" data-aos-duration="1000"
-            data-aos-delay="2100">scroll down&nbsp;&nbsp;<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"
+        <a href="#apropos" class="scroll-down-btn" data-aos="fade-down" data-aos-duration="1500">scroll down&nbsp;&nbsp;<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"
                 fill-rule="evenodd" clip-rule="evenodd">
                 <path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z" />
             </svg></a>
@@ -108,15 +107,15 @@ INCLUDE ("connexion.php");
     <section id="apropos">
         <div class="container">
             <div class="d-flex justify-content-center align-items-center me-auto" data-aos="fade-in"
-                data-aos-duration="2000" data-aos-delay="100">
+                data-aos-duration="1000">
                 <img src=" img/amézir.jpg" alt="" class="img-fluid" width="400" height="400">
             </div>
             <br>
             <div class="row">
-                <div class="col-lg-2" data-aos="fade-down" data-aos-duration="1000">
+                <div class="col-lg-2" data-aos="fade-down" data-aos-duration="500">
                     1/ HISTOIRE
                 </div>
-                <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col" data-aos="fade-up" data-aos-duration="500">
                     <p class="lead">Plus qu’une histoire, un rêve d’enfant.</p>
                     <p class="lead">J'ai une forte passion pour la technologie et le
                         design . Je suis
@@ -144,10 +143,10 @@ INCLUDE ("connexion.php");
     <section class="outils-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-2" data-aos="fade-down" data-aos-duration="1000">
+                <div class="col-lg-2" data-aos="fade-down" data-aos-duration="500">
                     2/ LES OUTILS
                 </div>
-                <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col" data-aos="fade-up" data-aos-duration="500">
                     <div class="row">
                         <div class="col-sm">
                             <span><b>Conception créative</b></span>
@@ -184,8 +183,8 @@ INCLUDE ("connexion.php");
                 </div>
             </div>
 
-            <div id="projets" class="text-center esp" data-aos="fade-in" data-aos-duration="1000">
-                <a class="hover-underline more-projets-btn" href="/docs/AMEZIR MESSAOUD CV.pdf">
+            <div id="projets" class="text-center esp" data-aos="fade-in" data-aos-duration="500">
+                <a class="hover-underline more-projets-btn" href="/docs/AMEZIR MESSAOUD CV.pdf" download="AMEZIR MESSAOUD CV">
                     Télécharger mon CV !
                 </a>
             </div>
@@ -198,13 +197,13 @@ INCLUDE ("connexion.php");
     <div class=" esp">
         <div class="container">
             <div class="row">
-                <div class="col-sm" data-aos="fade-down" data-aos-duration="1000">
+                <div class="col-sm" data-aos="fade-down" data-aos-duration="500">
                     <p class="catavalo-b">Portfolio</p>
                     <div>
                         <h2>Voir mes travaux de création</h2>
                     </div>
                 </div>
-                <div class="col-sm" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-sm" data-aos="fade-up" data-aos-duration="500">
                     <p>Mon portfolio est une collection de mes travaux les plus récents et les plus pertinents. Il
                         montre ma
                         créativité, mes compétences techniques et mon expérience professionnelle.</p>
@@ -235,7 +234,7 @@ INCLUDE ("connexion.php");
             $stmt=$db->query($requete);
             $resultat=$stmt->fetchall(PDO::FETCH_ASSOC);
             foreach($resultat as $projets){
-                echo"<div class='col-md' data-aos='fade-in' data-aos-duration='1000' data-aos-delay='500'>
+                echo"<div class='col-md' data-aos='fade-in' data-aos-duration='500'>
                         <div class='hover-color' style='background-image: url({$projets["image_projets"]});'>
                             <div class='hover-txt d-flex align-items-center text-center justify-content-center'>
                                 <a href='projets-details.php?id_projets={$projets["id_projets"]}'>
@@ -258,13 +257,13 @@ INCLUDE ("connexion.php");
     <div class="esp ">
         <div class="container">
             <div class="row">
-                <div class="col-sm">
+                <div class="col-sm" data-aos="fade-down" data-aos-duration="500">
                     <p class="catavalo-b">Témoignages</p>
                     <div>
                         <h2>Ce que mes clients et collègues disent de mon travail.</h3>
                     </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm" data-aos="fade-up" data-aos-duration="500">
                     <div id="carouselExampleDark" class="carousel carousel-dark slide">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
