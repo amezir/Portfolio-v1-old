@@ -106,6 +106,7 @@
     margin-top: 10%;
 }
 
+/* scroll btn */
 .scroll-down-btn {
     position: absolute;
     bottom: 1rem;
@@ -321,6 +322,27 @@ hr {
     height: 2px
 }
 
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(67, 67, 67);
+}
+
 /* responsive */
 
 @media screen and (max-width: 992px) {
@@ -336,6 +358,10 @@ hr {
     .head .head-subheading {
         font-size: 1rem;
         max-width: 70%;
+    }
+
+    .esp {
+        margin-top: 35%;
     }
 
 }

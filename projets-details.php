@@ -72,7 +72,7 @@ $stmt=$db->query($requete);
 $resultat=$stmt->fetchall(PDO::FETCH_ASSOC);
 
 foreach($resultat as $projets){
-    echo"            <div class='row align-items-center justify-content-center d-flex'>
+    echo"            <div class='esp row align-items-center justify-content-center d-flex'>
     <div class='col-lg'>
         <img src='{$projets["image_projets"]}' alt='' width='' class='img-fluid'>
     </div>
