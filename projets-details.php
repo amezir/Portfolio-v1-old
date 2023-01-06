@@ -78,8 +78,8 @@ foreach($resultat as $projets){
     </div>
     <div class='col'>
         <h1>{$projets["nom_projets"]}&nbsp; <span class='badge text-bg-dark'>{$projets["nom_categorie"]}</span></h1>
-        <a href='{$projets["lien_projets"]}' class='hover-underline more-projets-btn'>lien vers le projet</a>&nbsp;&nbsp;&nbsp;
-        <a href='{$projets["github_projets"]}' class='{$projets["display_btn_projets"]} hover-underline more-projets-btn'>lien github</a>
+        <a href='{$projets["lien_projets"]}' class='hover-underline more-projets-btn' target='_blank'>lien vers le projet</a>&nbsp;&nbsp;&nbsp;
+        <a href='{$projets["github_projets"]}' class='{$projets["display_btn_projets"]} hover-underline more-projets-btn' target='_blank'>lien github</a>
         <br>&nbsp;
         <p>{$projets["texte_projets"]}
         </p>
