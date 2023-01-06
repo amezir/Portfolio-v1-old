@@ -275,9 +275,9 @@ INCLUDE ("connexion.php");
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="10000">
-                                <div class="slider_item col">
+                                <div class="col">
 
-                                    <div class="quote_icon">
+                                    <div>
                                         <svg width="67" height="54" viewBox="0 0 67 54" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -295,16 +295,16 @@ INCLUDE ("connexion.php");
                                         Je souhaite qu'il poursuive son chemin avec succès et qu'il continue à donner le
                                         meilleur de lui-même pour atteindre ses objectifs !
                                     </p>
-                                    <div class="client_info">
-                                        <div class="line"></div>
-                                        <h4 class="client_name text-uppercase">Anna Hassani</h4>
-                                        <span class="client_title">UI designer</span>
+                                    <div>
+
+                                        <h4>Anna Hassani</h4>
+                                        <span>UI designer</span>
                                     </div>
 
                                 </div>
                             </div>
                             <div class="carousel-item" data-bs-interval="2000">
-                                <div class="quote_icon">
+                                <div>
                                     <svg width="67" height="54" viewBox="0 0 67 54" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -315,14 +315,13 @@ INCLUDE ("connexion.php");
                                 <p>
                                 Fort d'esprit d'équipe et de proposition, Amézir est toujours en quête d'idées innovantes et de progrès. C'est sans hésitation que je continuerai de collaborer avec lui !
                                 </p>
-                                <div class="client_info">
-                                    <div class="line"></div>
-                                    <h4 class="client_name text-uppercase">Amel Chabah</h4>
+                                <div>
+                                    <h4>Amel Chabah</h4>
                                     <span class="client_title">Chef de projet web </span>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="quote_icon">
+                                <div>
                                     <svg width="67" height="54" viewBox="0 0 67 54" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -335,9 +334,8 @@ INCLUDE ("connexion.php");
                                     it and seemed ready to slide off any momentMagazine and housed in a nice,
                                     gilded frame. It showed a lady fitted out organization boa who sat upright
                                 </p>
-                                <div class="client_info">
-                                    <div class="line"></div>
-                                    <h4 class="client_name text-uppercase">Michel deno</h4>
+                                <div>
+                                    <h4>Michel deno</h4>
                                     <span class="client_title">Secior marketing expert</span>
                                 </div>
                             </div>
