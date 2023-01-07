@@ -75,13 +75,15 @@
         </div>
 
         <!-- social Section-->
-        <div class="social position-fixed" data-aos="fade-in" data-aos-duration="1500">
-            <a href="https://www.linkedin.com/in/amezirmessaoud/" target="_blank"><img
-                    src="img/Vectorin.svg" alt=""></a>
-            <a href="https://github.com/amezir" target="_blank"><img src="img/Vectorgithub.svg" alt=""></a>
-            <a href="https://dev.to/amezir" target="_blank"><img src="img/Vectordevto.svg" alt=""></a>
-            <a href="https://codepen.io/ame75" target="_blank"><img
-                    src="img/ant-design_codepen-circle-filledcodepen.svg" alt=""></a>
+        <div class="social position-fixed" data-aos="fade-in" data-aos-duration="1000">
+            <a href="https://www.linkedin.com/in/amezirmessaoud/" target="_blank"
+                class="social-hover"><img src="img/Vectorin.svg" alt="Linkedin" width="100%" height="100%"></a>
+            <a href="https://github.com/amezir" target="_blank" class="social-hover"><img src="img/Vectorgithub.svg"
+                    alt="Github" width="100%" height="100%"></a>
+            <a href="https://dev.to/amezir" target="_blank" class="social-hover"><img src="img/Vectordevto.svg"
+                    alt="Dev.to" width="100%" height="100%"></a>
+            <a href="https://codepen.io/ame75" target="_blank" class="social-hover"><img
+                    src="img/ant-design_codepen-circle-filledcodepen.svg" alt="CodePen" class="social-hover"  width="100%" height="100%"></a>
         </div>
 
         <a href="#projets" class="scroll-down-btn" data-aos="fade-down" data-aos-duration="1500">scroll

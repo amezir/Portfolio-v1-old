@@ -87,13 +87,13 @@ INCLUDE ("connexion.php");
         <!-- social Section-->
         <div class="social position-fixed" data-aos="fade-in" data-aos-duration="1000">
             <a href="https://www.linkedin.com/in/amezirmessaoud/" target="_blank"
-                class="social-hover"><img src="img/Vectorin.svg" alt="Linkedin"></a>
+                class="social-hover"><img src="img/Vectorin.svg" alt="Linkedin" width="100%" height="100%"></a>
             <a href="https://github.com/amezir" target="_blank" class="social-hover"><img src="img/Vectorgithub.svg"
-                    alt="Github"></a>
+                    alt="Github" width="100%" height="100%"></a>
             <a href="https://dev.to/amezir" target="_blank" class="social-hover"><img src="img/Vectordevto.svg"
-                    alt="Dev.to"></a>
+                    alt="Dev.to" width="100%" height="100%"></a>
             <a href="https://codepen.io/ame75" target="_blank" class="social-hover"><img
-                    src="img/ant-design_codepen-circle-filledcodepen.svg" alt="CodePen" class="social-hover"></a>
+                    src="img/ant-design_codepen-circle-filledcodepen.svg" alt="CodePen" class="social-hover"  width="100%" height="100%"></a>
         </div>
 
         <a href="#apropos" class="scroll-down-btn" data-aos="fade-down" data-aos-duration="1500">scroll down&nbsp;&nbsp;<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +104,7 @@ INCLUDE ("connexion.php");
     <!-- up Section-->
 
     <a href="#" class="scroll-up-btn position-fixed" data-aos="fade-up" data-aos-duration="1000"
-        data-aos-delay="2100"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+        data-aos-delay="2100" alt="scroll vers le haut"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
             clip-rule="evenodd">
             <path d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z" />
         </svg></a>
