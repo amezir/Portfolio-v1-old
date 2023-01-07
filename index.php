@@ -231,7 +231,7 @@ INCLUDE ("connexion.php");
 
             <div class="esp">
                 <div class="container">
-
+<h3>Projets Récents</h3>
                     <div class="card-container row">
 
                         <?php
@@ -278,9 +278,11 @@ INCLUDE ("connexion.php");
                                 aria-label="Slide 2"></button>
                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
                                 aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
                         </div>
                         <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="10000">
+                            <div class="carousel-item active" data-bs-interval="2000">
                                 <div class="col">
 
                                     <div>
@@ -309,6 +311,7 @@ INCLUDE ("connexion.php");
 
                                 </div>
                             </div>
+                            
                             <div class="carousel-item" data-bs-interval="2000">
                                 <div>
                                     <svg width="67" height="54" viewBox="0 0 67 54" fill="none"
@@ -326,6 +329,7 @@ INCLUDE ("connexion.php");
                                     <span class="client_title">Chef de projet web </span>
                                 </div>
                             </div>
+
                             <div class="carousel-item">
                                 <div>
                                     <svg width="67" height="54" viewBox="0 0 67 54" fill="none"
@@ -336,15 +340,14 @@ INCLUDE ("connexion.php");
                                     </svg>
                                 </div>
                                 <p>
-                                    Divided by arches into stiff sections. The bedding was hardly able to cover
-                                    it and seemed ready to slide off any momentMagazine and housed in a nice,
-                                    gilded frame. It showed a lady fitted out organization boa who sat upright
+                                Je tiens à témoigner du fait que Amezir est très disposé à aider les autres. J'ai personnellement bénéficié de son aide lorsque j'ai eu des difficultés avec un projet de développement web. Il a pris le temps de m'expliquer les concepts et de me montrer comment résoudre les problèmes, et grâce à lui, j'ai réussi à terminer le projet. Il est super dévoué et très compétent.
                                 </p>
                                 <div>
-                                    <h4>Michel deno</h4>
-                                    <span class="client_title">Secior marketing expert</span>
+                                    <h4>Killian Quelavoine</h4>
+                                    <span class="client_title">Monteur vidéo & Développeur Front</span>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
