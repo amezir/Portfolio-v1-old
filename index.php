@@ -278,7 +278,7 @@ INCLUDE ("connexion.php");
                                 aria-label="Slide 2"></button>
                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
                                 aria-label="Slide 3"></button>
-                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
                                 aria-label="Slide 4"></button>
                         </div>
                         <div class="carousel-inner">
@@ -345,6 +345,24 @@ INCLUDE ("connexion.php");
                                 <div>
                                     <h4>Killian Quelavoine</h4>
                                     <span class="client_title">Monteur vidéo & Développeur Front</span>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div>
+                                    <svg width="67" height="54" viewBox="0 0 67 54" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M30.2096 38.5591C30.2096 47.5825 23.9128 53.4943 15.4658 53.4943C6.86521 53.4943 0.568359 47.4269 0.568359 38.5591C0.568359 34.5142 1.18269 31.5583 4.71506 23.0016L13.6228 0.598877H28.8274L22.0698 25.3353C27.138 27.5133 30.2096 32.1806 30.2096 38.5591V38.5591ZM66.4549 38.5591C66.4549 47.5825 60.158 53.4943 51.7111 53.4943C43.1105 53.4943 36.8136 47.4269 36.8136 38.5591C36.8136 34.5142 37.428 31.5583 40.9603 23.0016L49.8681 0.598877H65.0727L58.3151 25.3353C63.3833 27.5133 66.4549 32.1806 66.4549 38.5591V38.5591Z"
+                                            stroke="#646464" stroke-miterlimit="10" />
+                                    </svg>
+                                </div>
+                                <p>
+                                J'ai eu énormément d'occasion de travailler avec Amézir, c'est un développeur consciencieux, passionné et sa motivation est contagieuse.De plus, Amézir est un excellent travailleur en équipe et sa personnalité agréable en fait un plaisir de travailler avec lui, il sait mettre ses capacités en avant et cela fait de lui un atout précieux dans une équipe !
+                                </p>
+                                <div>
+                                    <h4>Valentin Jullien</h4>
+                                    <span class="client_title">Développeur Front</span>
                                 </div>
                             </div>
 
