@@ -55,7 +55,7 @@
             Projets
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#projets">Information projets</a></li>
+            <li><a class="dropdown-item" href="#projets">Informations projets</a></li>
             <li><a class="dropdown-item" href="https://amezirmessaoud.fr/projets.php">Tous les projets</a></li>
           </ul>
         </li>
