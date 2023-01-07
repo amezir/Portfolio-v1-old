@@ -35,10 +35,10 @@
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-white bg-white p-3 fixed-top" data-aos="fade-down"
-        data-aos-duration="1000">
+        data-aos-duration="500">
         <div class="container-fluid">
             <a class="navbar-brand" href="https://amezirmessaoud.fr">
-                <img src="img/logo.png" class="img-fluid" width="50" height="50">
+                <img src="img/logo.png" class="img-fluid" width="50" height="50" alt="Retour a l'accueil">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,9 +50,15 @@
                     <li class="nav-item">
                         <a class="nav-link mx-2" href="https://amezirmessaoud.fr/index.php#apropos">À propos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-2" href="https://amezirmessaoud.fr/index.php#projets">Projets</a>
-                    </li>
+                    <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Projets
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#projets">Information projets</a></li>
+            <li><a class="dropdown-item" href="https://amezirmessaoud.fr/projets.php">Tous les projets</a></li>
+          </ul>
+        </li>
                     <li class="nav-item">
                         <a class="nav-link mx-2" href="https://amezirmessaoud.fr/index.php#contact">Contact</a>
                     </li>

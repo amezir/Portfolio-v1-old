@@ -56,9 +56,15 @@ INCLUDE ("connexion.php");
                     <li class="nav-item">
                         <a class="nav-link mx-2" href="https://amezirmessaoud.fr/index.php#apropos">À propos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-2" href="https://amezirmessaoud.fr/index.php#projets">Projets</a>
-                    </li>
+                    <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Projets
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#projets">Information projets</a></li>
+            <li><a class="dropdown-item" href="https://amezirmessaoud.fr/projets.php">Tous les projets</a></li>
+          </ul>
+        </li>
                     <li class="nav-item">
                         <a class="nav-link mx-2" href="https://amezirmessaoud.fr/index.php#contact">Contact</a>
                     </li>
