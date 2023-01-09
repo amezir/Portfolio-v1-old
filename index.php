@@ -123,24 +123,10 @@ INCLUDE ("connexion.php");
                 </div>
                 <div class="col" data-aos="fade-up" data-aos-duration="500">
                     <p class="lead">Plus qu’une histoire, un rêve d’enfant.</p>
-                    <p class="lead">J'ai une forte passion pour la technologie et le
-                        design . Je suis
-                        spécialisé dans le
-                        développement web front/back et le design UI et ma passion est de créer des interfaces
-                        utilisateur et des sites Web élégants et professionnels.
+                    <p class="lead">J'ai une forte passion pour la technologie et le design. Je suis spécialisé dans le développement web front/back ainsi que dans le UI design. Ma passion est de créer des interfaces utilisateur et des sites Web élégants et professionnels.
                     </p>
-                    <p class="lead">Je vis en France. Je suis actuellement en BUT MMI métiers du multimédia et de
-                        l'internet en 2ème année à l'université Gustave Eiffel. J'ai commencé à développer et à
-                        concevoir dès mon plus jeune âge et la plupart de mes compétences et connaissances en matière de
-                        conception sont autodidactes. J'ai commencé à m'intéresser à la programmation lorsque je me suis
-                        intéressé aux jeux vidéo. Cela m'a fasciné et m'a accroché, j'ai donc décidé de poursuivre cette
-                        carrière. Par conséquent, je me suis formé à la conception multimédia. En combinant mes
-                        compétences en design numérique et mes connaissances en programmation.</p>
-                    <p class="lead">Mon objectif est de passer au niveau supérieur en devenant un développeur complet et
-                        de
-                        devenir l'un des meilleurs concepteurs au monde. Je me suis préparé à relever les défis de ce
-                        monde
-                        en constante évolution et je ferai de mon mieux pour réaliser mes rêves et mes objectifs.</p>
+                    <p class="lead">Je vis en France. Je suis actuellement en BUT MMI métiers du multimédia et de l'internet en 2ème année à l'université Gustave Eiffel. J'ai commencé à développer et à concevoir dès mon plus jeune âge et la plupart de mes compétences et connaissances en matière de conception sont autodidactes. J'ai commencé à m'intéresser à la programmation lorsque je me suis intéressé aux jeux vidéo. Cela m'a fasciné et m'a accroché, j'ai donc décidé de poursuivre cette carrière. Par conséquent, je me suis formé à la conception multimédia en combinant mes compétences en design numérique et mes connaissances en programmation.</p>
+                    <p class="lead">Mon objectif est de passer au niveau supérieur en devenant un développeur complet et de devenir l'un des meilleurs concepteurs au monde. Je me suis préparé à relever les défis de ce monde en constante évolution et je ferai de mon mieux pour réaliser mes rêves et mes objectifs.</p>
                 </div>
             </div>
     </section>
@@ -206,19 +192,13 @@ INCLUDE ("connexion.php");
                 <div class="col-sm" data-aos="fade-down" data-aos-duration="500">
                     <p class="catavalo-b">Portfolio</p>
                     <div>
-                        <h2>Voir mes travaux de création</h2>
+                        <h2>Venez découvrir mes créations</h2>
                     </div>
                 </div>
                 <div class="col-sm" data-aos="fade-up" data-aos-duration="500">
-                    <p>Mon portfolio est une collection de mes travaux les plus récents et les plus pertinents. Il
-                        montre ma
-                        créativité, mes compétences techniques et mon expérience professionnelle.</p>
-                    <p>J'ai soigné la présentation de mon portfolio afin qu'il soit agréable à parcourir et facile à
-                        comprendre. J'ai sélectionné les images et les textes les plus pertinents pour illustrer mes
-                        travaux et les mettre en valeur.</p>
-                    <p>N'hésitez pas à me contacter si vous avez des questions ou si vous souhaitez en savoir plus sur
-                        mon travail. Je suis disponible pour discuter de mes projets et de mes aspirations
-                        professionnelles.</p>
+                    <p>Mon portfolio constitue une collection de mes travaux les plus récents et les plus pertinents. Il montre ma créativité, mes compétences techniques et mon expérience professionnelle.</p>
+                    <p>J'ai choisi d’adopter une présentation minimaliste pour la présentation de mon portfolio afin qu'il soit agréable à parcourir et facile à comprendre. J'ai sélectionné les images et les textes les plus pertinents pour illustrer mes travaux et les mettre en valeur.</p>
+                    <p>N'hésitez pas à me contacter si vous avez des questions ou si vous souhaitez en savoir plus sur mon travail. Je suis disponible pour discuter de mes projets et de mes aspirations professionnelles.</p>
                     <a href="projets.php" class="hover-underline more-projets-btn" data-aos="fade-in"
                         data-aos-duration="1000">Explorer tous les projets &nbsp;<svg width="24" height="24"
                             stroke="#2062CD" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
