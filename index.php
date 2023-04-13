@@ -141,17 +141,6 @@ INCLUDE ("connexion.php");
                 <div class="col" data-aos="fade-up" data-aos-duration="500">
                     <div class="row">
                         <div class="col-sm">
-                            <span><b>Conception créative</b></span>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Figma</li>
-                                <li class="list-group-item">Adobe Photoshop</li>
-                                <li class="list-group-item">Adobe Illustrator</li>
-                                <li class="list-group-item">Adobe InDesign</li>
-                                <li class="list-group-item">Adobe LightRoom</li>
-                                <li class="list-group-item">Adobe Premiere Pro</li>
-                            </ul>
-                        </div>
-                        <div class="col-sm">
                             <span><b>Développement Web</b></span>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">HTML 5</li>
@@ -165,10 +154,25 @@ INCLUDE ("connexion.php");
                         <div class="col-sm">
                             <span><b>Bibliothèque</b></span>
                             <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Next.js</li>
+                                <li class="list-group-item">React.js</li>
+                                <li class="list-group-item">Node.js</li>
+                                <li class="list-group-item">Sass</li>
                                 <li class="list-group-item">Chart.js</li>
                                 <li class="list-group-item">Bootstrap</li>
                                 <li class="list-group-item">AOS</li>
                                 <li class="list-group-item">Leaflet</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm">
+                            <span><b>Conception créative</b></span>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Figma</li>
+                                <li class="list-group-item">Adobe Photoshop</li>
+                                <li class="list-group-item">Adobe Illustrator</li>
+                                <li class="list-group-item">Adobe InDesign</li>
+                                <li class="list-group-item">Adobe LightRoom</li>
+                                <li class="list-group-item">Adobe Premiere Pro</li>
                             </ul>
                         </div>
                     </div>
