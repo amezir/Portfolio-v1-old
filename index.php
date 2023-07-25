@@ -149,6 +149,7 @@ INCLUDE ("connexion.php");
                                 <li class="list-group-item">Php</li>
                                 <li class="list-group-item">Mysql</li>
                                 <li class="list-group-item">Wordpress</li>
+                                <li class="list-group-item">Shopify</li>
                             </ul>
                         </div>
                         <div class="col-sm">
